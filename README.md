@@ -9,7 +9,7 @@ Robust Adversarial Reinforcement Learning
 10. pro_weights: a folder containing experimental weights. Default: pro_policy_weights_ip_RARL.zip for the Inverted Pendulum environment and  pro_policy_weights_w2d_RARL3.zip for the Walker2d environment.
 11. ppo.py: ppo implementation from Stable-Baselines3.
 12. provappo.py: training and evaluation of the ppo (stable-baselines3) algorithm.
-13. Presentation slides.
+13. "Trovalusci_Baldi.pdf": Presentation slides.
     
 ## Clone Repository:
 
@@ -29,3 +29,8 @@ Run Walker 2d simulation:
 ## Reference paper: 
 
 https://arxiv.org/abs/1703.02702
+
+##Authors:
+
+Serena Trovalusci
+Andrea Baldi
