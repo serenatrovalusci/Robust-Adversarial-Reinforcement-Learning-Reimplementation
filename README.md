@@ -13,7 +13,7 @@ Robust Adversarial Reinforcement Learning
     
 ## Clone Repository:
 
-git clone https://github.com/serenatrovalusci/Robust-Adversarial-Reinforcement-Learning-1.0.git
+git clone https://github.com/serenatrovalusci/Robust-Adversarial-Reinforcement-Learning-Reimplementation.git
 
 ## Run commands
 As we alrready saved the weights, if you run the code, it will directly do the evaluation and rendering.
