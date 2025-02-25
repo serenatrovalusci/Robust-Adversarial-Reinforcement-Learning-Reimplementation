@@ -1,34 +1,30 @@
 Robust Adversarial Reinforcement Learning 
 
 ## Table of Contents
-1. Extended_Inv_Pend.py : extended environment of InvertedPendulum-v5
-2. Extended_Walker2d.py : extended environment of Walker2d-v5
-3. adv_policy_weights_ip.py : weights for the trained adversarial agent InvertedPendulum N_iter= 100, N_adv=200
-4. pro_policy_weights_ip.py : weights for the trained protagonist agent InvertedPendulum N_iter= 100, N_adv=200
-5. pro_policy_weights_w2d.py : weights for the trained protagonist agent Walker2d N_iter= 500, N_adv=200
-6. adv_policy_weights_w2d.py : weights for the trained adversarial agent Walker2d N_iter= 500, N_adv=200
-7. train.py : file where we define the RARL algorithm
-8. main.py : training and evaluation 
-
-
+1. Extended_Inv_Pend.py : extended environment of InvertedPendulum-v5.
+2. Extended_Walker2d.py : extended environment of Walker2d-v5.
+7. train.py : file where we define the RARL algorithm.
+8. main.py : training, evaluation and plotting.
+9. adv_weights: a folder containing experimental weights. Default: adv_policy_weights_ip_RARL.zip for the Inverted Pendulum environment and  adv_policy_weights_w2d_RARL3.zip for the Walker2d environment.
+10. pro_weights: a folder containing experimental weights. Default: pro_policy_weights_ip_RARL.zip for the Inverted Pendulum environment and  pro_policy_weights_w2d_RARL3.zip for the Walker2d environment.
+11. ppo.py: ppo implementation from Stable-Baselines3.
+12. provappo.py: training and evaluation of the ppo (stable-baselines3) algorithm.
+13. Presentation slides.
+    
 ## Clone Repository:
 
 git clone https://github.com/serenatrovalusci/Robust-Adversarial-Reinforcement-Learning-1.0.git
 
 ## Run commands
-As we alrready saved the weights, if you run the files, it will directly do the evaluation and rendering.
+As we alrready saved the weights, if you run the code, it will directly do the evaluation and rendering.
 
-Run Inverted Pendulumu: 
+Run Inverted Pendulum simulation: 
 
 "python main.py ip"
 
-Run Walker 2d:
+Run Walker 2d simulation:
 
 "python main.py w2d"
-
-## Compare with PPO Baselines 
-
-Run file 'provappo.py' with N_iter*N_pro timesteps, using the desired gymnasum environment.
 
 ## Reference paper: 
 
