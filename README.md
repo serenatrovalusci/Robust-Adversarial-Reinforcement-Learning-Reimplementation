@@ -30,7 +30,7 @@ Run Walker 2d simulation:
 
 https://arxiv.org/abs/1703.02702
 
-##Authors:
+## Authors
 
 Serena Trovalusci
 Andrea Baldi
