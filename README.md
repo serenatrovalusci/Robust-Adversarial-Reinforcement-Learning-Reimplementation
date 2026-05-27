@@ -11,8 +11,8 @@ A reimplementation of [*Robust Adversarial Reinforcement Learning*](https://arxi
 
 Standard RL agents can be brittle — small perturbations to the environment (wind, friction, sensor noise) can cause them to fail. RARL addresses this by framing training as a **two-player zero-sum game**:
 
-- 🤖 **Protagonist** — learns to complete the task.
-- 👿 **Adversary** — applies destabilising forces to the protagonist, trying to make it fail.
+-  **Protagonist** — learns to complete the task.
+-  **Adversary** — applies destabilising forces to the protagonist, trying to make it fail.
 
 The two agents are trained in alternation using **Proximal Policy Optimization (PPO)**. The result is a protagonist robust to a wide range of adversarial perturbations at test time.
 
@@ -111,7 +111,7 @@ Walker2d shows the clearest benefit of RARL: the protagonist trained adversarial
 | RARL 2 | 500 | 100 | Velocity, posture & foot angle penalties | Higher control, lower raw reward |
 | **RARL 3** *(best)* | **200** | **150** | **Sinusoidal gait + periodicity rewards** | **Most natural and stable gait** |
 
-#### 🏆 Best configuration: Sinusoidal Reward Shaping (RARL 3)
+#### Best configuration: Sinusoidal Reward Shaping (RARL 3)
 
 The key insight behind RARL 3 is that **enforcing periodicity in leg motion leads to both greater stability and a more natural gait**. The custom reward function encourages the agent to move its legs in a coordinated, sinusoidal pattern rather than adopting degenerate locomotion strategies. Specifically, the reward was shaped by:
 
@@ -133,7 +133,7 @@ https://github.com/user-attachments/assets/38420451-5d72-4a85-91de-740a09f1db13
 
 **Walker2d — RARL 3** *(sinusoidal reward shaping)*
 
-Uploading VIDEO_RARL_1.mov…
+https://github.com/user-attachments/assets/0229c6a6-f8df-4c38-837a-82af53f1f0fe
 
 ## Reference
 
